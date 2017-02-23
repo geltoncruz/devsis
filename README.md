@@ -1,4 +1,8 @@
-﻿	1.  download do git 
+﻿# Curso técnico senai 
+## Informática Desenvolvimento de sistemas I
+### Carga horária: 100h
+
+	1.  download do git 
 	1.1 google "git download"
         1.2 Acessar site para download
         1.3 seleciona sistema operacional
@@ -16,5 +20,13 @@
 	3.2 Configuração git
 	3.2.1 $ git config --global user.name "Gelton Cruz"
 	3.2.2 $ git config --global user.email "Gelton@midiaplural.com.br"
+
+	4. Track files
+	4.1 criar arquivo README.md
+	4.2 $ git status [Para saber o status do repositorio)
+	4.3 $ git add README.md 
+	4.4 $ git status [verificar status]
+	4.5 $ git commit -m "{texto}" [para trackear arquivos]
+	4.6 $ git [log para acompanhar registros de commit]
 
      
