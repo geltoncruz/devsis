@@ -10,7 +10,7 @@
 
 	2. Criar diretorio de projetos 
 		2.1. $ mkdir Projetos 
-		2.1.1. C:\Users\geltoncruz\Documents\Projetos 
+			2.1.1. C:\Users\geltoncruz\Documents\Projetos 
 		2.2. acessar diretorio de projetos 
 		2.3. $ cd C:/Users/{userName}/Documents/Projetos 
 		2.4. $ ls list source 
@@ -18,8 +18,8 @@
 	3. Iniciar repositorio git 
 		3.1. $ git init 
 		3.2. Configuração git 
-		3.2.1. $ git config --global user.name "Gelton Cruz" 
-		3.2.2. $ git config --global user.email "Gelton@midiaplural.com.br" 
+			3.2.1. $ git config --global user.name "Gelton Cruz" 
+			3.2.2. $ git config --global user.email "Gelton@midiaplural.com.br" 
 
 	4. Track files 
 		4.1. criar arquivo README.md 
