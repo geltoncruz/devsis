@@ -29,4 +29,12 @@
 	4.5 $ git commit -m "{texto}" [para trackear arquivos]
 	4.6 $ git [log para acompanhar registros de commit]
 
+	5. Criando host
+	5.1 Criar repositorio online
+	5.2 Pegar endereco do host
+	5.3 Add endereco remoto
+	5.4 $ git remote add origin https://github.com/geltoncruz/devsis.git
+	5.5 $ git remote -v [visualizar remote]
+	
+
      
