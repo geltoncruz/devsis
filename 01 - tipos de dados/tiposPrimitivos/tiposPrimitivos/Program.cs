@@ -23,6 +23,23 @@ namespace tiposPrimitivos
             //string é um tipo de dado válido
             string texto = "Ola Mundo";
 
+            //Vetor Unidimensional
+
+            int[] num = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] arr = new int[10];
+
+            Console.WriteLine(num[5]);
+            
+            //Matriz
+            int[,] mat = new int[5,5];
+            mat[0, 1] = 1;
+            mat[0, 2] = 2;
+
+            Console.WriteLine("Valor da matriz na posição [0,1] :"+mat[0,1]);
+
+
+
+
             Dias dia = Dias.seg;
             
 
