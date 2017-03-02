@@ -37,6 +37,22 @@ namespace tiposPrimitivos
 
             Console.WriteLine("Valor da matriz na posição [0,1] :"+mat[0,1]);
 
+            List<String> frutas = new List<String>();
+
+            frutas.Add("pera");
+            frutas.Add("Maça");
+            frutas.Add("Banana");
+
+            frutas.Remove("pera");
+
+            List<int> sorteio = new List<int>();
+
+            sorteio.Add(1);
+            sorteio.Add(2);
+            Console.WriteLine(sorteio[0]);
+
+            Console.WriteLine(frutas[2]);
+
 
 
 
