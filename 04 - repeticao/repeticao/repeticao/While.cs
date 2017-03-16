@@ -15,6 +15,20 @@ namespace repeticao
         public While()
         {
             InitializeComponent();
+
+            int i = 15;
+
+            double dinheiro = 1000.0;
+            while (i >= 0)
+            {
+                dinheiro -= i;
+
+                txtresult.Text = Convert.ToString(dinheiro);
+                i--;
+
+
+            }
+            MessageBox.Show("O subtraído um "+ dinheiro);
             
         }
     }
