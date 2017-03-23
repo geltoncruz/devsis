@@ -32,7 +32,12 @@ namespace IntroducaoOO
             rodopiando.titularConta = "Rodopiando José da Silva";
             rodopiando.saldo = 1000;
 
+            txtCodigoConta.Text = Convert.ToString(altamirando.codigoConta);
+            txtTitularConta.Text = altamirando.titularConta;
+            txtSaldoConta.Text = Convert.ToString(altamirando.saldo);
 
+            altamirando.Sacar();
+            MessageBox.Show("Novo Saldo de altamirando " + altamirando.saldo);
 
         }
     }

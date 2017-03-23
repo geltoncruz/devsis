@@ -12,10 +12,11 @@ namespace IntroducaoOO
        public String titularConta ;
        public double saldo;
 
-       bool sacar()
+       public double Sacar()
         {
             this.saldo -= 50;
-            return true;
+            return this.saldo;
+            
         }
 
 
