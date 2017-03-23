@@ -12,6 +12,8 @@ namespace repeticao
 {
     public partial class While : Form
     {
+        private object dinheiro;
+
         public While()
         {
             InitializeComponent();
@@ -24,12 +26,25 @@ namespace repeticao
                 dinheiro -= i;
 
                 txtresult.Text = Convert.ToString(dinheiro);
+               //txtresult.TextChanged(Convert.ToString(dinheiro));
+                
                 i--;
+                this.Update();
 
 
             }
             MessageBox.Show("O subtraído um "+ dinheiro);
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DoWhile dw = new DoWhile();
+            this.Hide();
+            dw.Show();
+             
+        }
+
+        
     }
 }
