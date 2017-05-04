@@ -10,6 +10,8 @@ O polimorfismo costuma ser chamado de o terceiro pilar da programação orientad
 
 > Fonte : MSDN 
 
+## A capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica é chamada de POLIMORFISMO.
+
 ```c#
 using System ;
 class ControleDePonto
@@ -68,5 +70,3 @@ System . Console . WriteLine ( " DATA : " + horario ) ;
  }
 }
 ```
-### A capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica é chamada de 
-# POLIMORFISMO.
